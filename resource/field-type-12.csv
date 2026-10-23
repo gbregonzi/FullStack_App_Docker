@@ -1,0 +1,13 @@
+﻿Field,Type,Notes
+id,string,Unique per source (not globally unique)
+source,string,"e.g., ""MLS_A"", ""MLS_B"""
+address,string,"Free‑text, not normalized"
+city/state/zip,string,May contain inconsistencies
+price,number,USD list price
+bedrooms,integer,
+bathrooms,float,
+sqft,integer,
+latitude/longitude,float,
+listedDate,string (ISO),Date listing went live
+status,string,"`""active""","""pending""","""sold""`"
+description,string,"Free‑text, searchable"
